@@ -2,7 +2,7 @@ import React from 'react'
 
 const Featured = () => {
   return (
-    <div>Featured</div>
+    <div className='h-screen bg-orange-600'>Featured</div>
   )
 }
 

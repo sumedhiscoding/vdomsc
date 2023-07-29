@@ -16,16 +16,19 @@ const App = () => {
       <PreHeader/>
       <Header/>
       <Routes>
-        <Route path='/' element= {<Home/> }/>
+        {/* <Route path='/' element= {<Home/> }/> */}
         <Route path='/about' element=  { <About/>}/>
         <Route path='/featured' element=  { <Featured/>}/>
         <Route path='/gallery' element=  {<Gallery/> }/>
         <Route path='/patient' element=  {<Patient/> }/>
         <Route path='/contact' element=  {<Contact/> }/>
-        
       </Routes>
     </Router>
-      
+      <Home/>
+      <About/>
+      <Gallery/>
+      <Patient/>
+      <Contact/>
     </>
   )
 }
