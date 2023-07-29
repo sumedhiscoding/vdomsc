@@ -59,7 +59,7 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <Link className="btn btn-ghost normal-case mx-24 text-xl">
+        <Link className="btn btn-ghost text-xl">
           VAISHNAVI DENTAL, ORAL & MAXILLOFACIAL SURGERY CLINIC
         </Link>
       </div>
