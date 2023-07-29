@@ -26,6 +26,7 @@ const App = () => {
     </Router>
       <Home/>
       <About/>
+      <Featured/>
       <Gallery/>
       <Patient/>
       <Contact/>

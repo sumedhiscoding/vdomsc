@@ -4,7 +4,7 @@ import { AiOutlineMenuUnfold } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <div className="sticky top-0 backdrop-blur bg-white/50">
+    <div className="sticky top-0 backdrop-blur z-50 bg-white/50">
     
     <div className="navbar py-4  ">
       <div className="navbar-start">
@@ -13,7 +13,7 @@ const Header = () => {
             <AiOutlineMenuUnfold className="text-xl"/>
           </label>
           <div className="dropdown-content ">
-            <ul className="menu bg-base-200 z-10 [&_li>*]:rounded-none">
+            <ul className="menu bg-base-200 z-50 [&_li>*]:rounded-none">
               <li>
                 <Link to="/">HOME</Link>
               </li>
